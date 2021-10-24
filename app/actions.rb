@@ -13,9 +13,11 @@ def humanized_time_ago(time_ago_in_minutes)
 end
 
 get '/' do
-  @finstagram_posts = FinstagramPost.order(created_at: :desc)
-  erb(:index)
+    @finstagram_posts = FinstagramPost.order(created_at: :desc)
+    erb(:index)
 end
+
+
 
 get '/signup' do
     @user = User.new

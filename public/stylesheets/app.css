@@ -18,9 +18,32 @@ main {
 .finstagram-post .user-info img {
     border-radius: 50%;
 }
+
 body {
-    font-family: 'Yaldevi', sans-serif;
+    font-family: 'Acme', sans-serif; 
 }
-a.photo:hover {
-    padding: 10px; transition: padding 0.5s;
+
+body {
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    font-family: 'Darker Grosteque', sans-serif;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+
+}
+
+a.photo{
+    transition: padding 0.5s;
+}
+
+a.photo:hover{
+    padding: 10px;
 }
